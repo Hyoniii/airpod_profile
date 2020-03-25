@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.main {
+  background-color: black;
+  border: 10px solid black;
+  height: 800px;
+  width: 430px;
+}
+.main__airpods {
+  background-color: #ffffff;
+  width: 100%x;
+  height: 460px;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.main__airpods-img {
+  width: 80%%;
+  height: 250px;
+}
+.info {
+  width: 100%;
+  height: 350px;
+}
+.info__name {
+  color: #2a2a2f;
+  font-family: Roboto;
+}
+.info__content {
+  color: #bcbfc5;
+  font-family: "Dosis:400";
+  padding-bottom: 20px;
+}
+.info__etc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info__etc-price {
+  font: bold 20px Roboto;
+}
+.info__etc-star {
+  color: #bcbfc5;
+}
+.fas {
+  color: #f8bc50;
+}
+.main__profile {
+  background-image: url("tropical.jpg");
+  background-size: cover;
+  width: 100%x;
+  height: 310px;
+  border-radius: 10px;
+  position: relative;
+}
+.infoTwo {
+  background-color: white;
+  width: 100%;
+  height: 55%;
+  bottom: 0px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto;
+  font-weight: lighter;
+}
+.infoTwo-face {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+.infoTwo__name {
+  margin: 10px;
+}
+.infoTwo__job {
+  color: #bcbfc5;
+  margin-bottom: 10px;
+}
+.select {
+  width: 100%;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  font-size: 23px;
+
+  display: flex;
+  justify-content: space-evenly;
+}
+.select__Flw {
+  width: 30%;
+  height: 35px;
+  background-color: rgb(243, 182, 112);
+  color: wheat;
+  text-align: center;
+  padding-top: 5px;
+  border-radius: 8px;
+}
+.select__Msg {
+  width: 30%;
+  height: 35px;
+  background-color: wheat;
+  color: rgb(243, 182, 112);
+  text-align: center;
+  padding-top: 5px;
+  border-radius: 8px;
+}
